@@ -1,0 +1,106 @@
+*{
+	margin:0px;
+	padding:0px;
+	text-decoration:none;
+	box-sizing:border-box;
+}
+.Heading{
+	background-color:black;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+    position:fixed;
+    top:0px;
+    z-index:999;
+}
+.Heading .logo img{
+	height:1in;
+}
+.menu ul{
+	list-style-type:none;
+	display:flex;
+	flex-wrap:wrap;
+}
+.menu ul li a{
+	color:white;
+	display:inline-block;
+	padding:38px;
+	font-size:20px;
+	font-weight:bold;
+	margin-left:68px;
+}
+
+.menu ul li a:hover{
+	background-color:red;
+}
+.btn button{
+	padding:36px;
+	font-size:20px;
+	font-weight:bold;
+	color:white;
+	background-color:navy;
+	border-radius:5px;
+}
+.about-content{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+.content{
+	width:500px;
+	padding:20px;
+	text-align:justify;
+}
+.images img{
+	width:500px;
+	height:400px;
+	padding:20px;	
+
+}
+#hdr{
+	background-color:blue;
+	padding:20px 0px;
+	color:white;
+}
+.blog-section{
+	display:flex;
+	flex-wrap:wrap;
+	padding:20px;
+}
+.blog{
+	width:400px;
+	text-align:justify;
+	padding:20px;
+	margin:0 auto;
+	background-color:gold;
+}
+#ltg{
+	font-weight:bold;
+	color:blue;
+}
+
+.clr-scton{
+	display:flex;
+	flex-wrap:wrap;
+	padding:20px;
+}
+.clr-blog{
+	width:300px;
+	height:300px;
+	border:1px solid gray;
+	margin:0 auto;
+}
+
+
+#sec1{
+	background-image:linear-gradient(to right,red,yellow,green);
+}
+#sec2{
+	background-image:repeating-linear-gradient(45deg,red,yellow 10%,green 15%);
+}
+#sec3{
+	background-image:radial-gradient(circle,red,yellow,green);
+}
+#sec4{
+	background-image:repeating-radial-gradient(circle,red,yellow 10%,green 15%);
+}
